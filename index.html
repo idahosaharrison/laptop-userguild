@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harrison - How to Use a Laptop - Complete Guide</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/typography.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <link rel="stylesheet" href="css/print.css" media="print">
+</head>
+<body>
+  <div class="app-container">
+    <header class="main-header">
+      <div class="logo">
+        <span class="logo-text">Harrison - Laptop Guide</span>
+      </div>
+      <div class="header-controls">
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark/light mode">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 17C14.7614 17 17 14.7614 17 12C17 9.23858 14.7614 7 12 7C9.23858 7 7 9.23858 7 12C7 14.7614 9.23858 17 12 17Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M12 1V3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M12 21V23" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M4.22 4.22L5.64 5.64" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M18.36 18.36L19.78 19.78" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M1 12H3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M21 12H23" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M4.22 19.78L5.64 18.36" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M18.36 5.64L19.78 4.22" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+        <button id="print-button" class="print-button" aria-label="Print guide">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M6 9V2H18V9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M6 18H4C3.46957 18 2.96086 17.7893 2.58579 17.4142C2.21071 17.0391 2 16.5304 2 16V11C2 10.4696 2.21071 9.96086 2.58579 9.58579C2.96086 9.21071 3.46957 9 4 9H20C20.5304 9 21.0391 9.21071 21.4142 9.58579C21.7893 9.96086 22 10.4696 22 11V16C22 16.5304 21.7893 17.0391 21.4142 17.4142C21.0391 17.7893 20.5304 18 20 18H18" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M18 14H6V22H18V14Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
+    </header>
+
+    <div class="content-wrapper">
+      <nav class="table-of-contents">
+        <div class="toc-header">
+          <h2>Table of Contents</h2>
+          <button id="toc-toggle" class="toc-toggle" aria-label="Toggle table of contents">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M4 6H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M4 12H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M4 18H20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </button>
+        </div>
+        <ul class="toc-list">
+          <li><a href="#cover" class="toc-link">Cover</a></li>
+          <li><a href="#introduction" class="toc-link">Introduction</a></li>
+          <li><a href="#getting-started" class="toc-link">Getting Started</a></li>
+          <li><a href="#basic-operations" class="toc-link">Basic Operations</a></li>
+          <li><a href="#keyboard-trackpad" class="toc-link">Keyboard & Trackpad</a></li>
+          <li><a href="#wifi-connectivity" class="toc-link">Wi-Fi & Connectivity</a></li>
+          <li><a href="#software" class="toc-link">Software & Applications</a></li>
+          <li><a href="#file-management" class="toc-link">File Management</a></li>
+          <li><a href="#security" class="toc-link">Security & Maintenance</a></li>
+          <li><a href="#troubleshooting" class="toc-link">Troubleshooting</a></li>
+          <li><a href="#glossary" class="toc-link">Glossary</a></li>
+        </ul>
+      </nav>
+
+      <main class="main-content">
+        <section id="cover" class="page cover-page">
+          <div class="cover-content">
+            <h1>How to Use a Laptop</h1>
+            <h2>A Complete Guide</h2>
+            <div class="cover-image">
+              <div class="laptop-illustration"></div>
+            </div>
+            <p class="subtitle">Everything you need to know about using your laptop effectively</p>
+            <p class="version">Version 1.0</p>
+          </div>
+        </section>
+
+        <section id="introduction" class="page">
+          <h2>Introduction</h2>
+          <div class="section-content">
+            <p>Welcome to your comprehensive guide on using a laptop computer. Whether you're a first-time user or looking to expand your knowledge, this guide will help you navigate the world of portable computing with confidence.</p>
+            
+            <div class="info-box">
+              <h3>What is a Laptop?</h3>
+              <p>A laptop is a portable personal computer designed for mobile use. It integrates most of the typical components of a desktop computer, including a display, keyboard, pointing device (trackpad), speakers, and battery, into a single unit.</p>
+            </div>
+            
+            <h3>Types of Laptops</h3>
+            <div class="grid-container">
+              <div class="grid-item">
+                <div class="icon-container">
+                  <div class="icon traditional-laptop"></div>
+                </div>
+                <h4>Traditional Laptops</h4>
+                <p>General-purpose computers with a clamshell form factor, balancing performance and portability.</p>
+              </div>
+              <div class="grid-item">
+                <div class="icon-container">
+                  <div class="icon ultrabook"></div>
+                </div>
+                <h4>Ultrabooks</h4>
+                <p>Thin and lightweight laptops that prioritize portability while maintaining performance.</p>
+              </div>
+              <div class="grid-item">
+                <div class="icon-container">
+                  <div class="icon gaming-laptop"></div>
+                </div>
+                <h4>Gaming Laptops</h4>
+                <p>Powerful machines with dedicated graphics cards for gaming and intensive applications.</p>
+              </div>
+              <div class="grid-item">
+                <div class="icon-container">
+                  <div class="icon 2-in-1"></div>
+                </div>
+                <h4>2-in-1 Convertibles</h4>
+                <p>Devices that can function as both a laptop and a tablet through a detachable or flexible screen.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="getting-started" class="page">
+          <h2>Getting Started</h2>
+          <div class="section-content">
+            <h3>Unboxing Your Laptop</h3>
+            <div class="step-by-step">
+              <div class="step">
+                <div class="step-number">1</div>
+                <div class="step-content">
+                  <h4>Carefully open the packaging</h4>
+                  <p>Remove any tape or seals without using sharp objects that might damage the contents.</p>
+                </div>
+              </div>
+              <div class="step">
+                <div class="step-number">2</div>
+                <div class="step-content">
+                  <h4>Identify all components</h4>
+                  <p>Your laptop package typically includes: the laptop itself, power adapter with cable, and documentation.</p>
+                </div>
+              </div>
+              <div class="step">
+                <div class="step-number">3</div>
+                <div class="step-content">
+                  <h4>Remove protective films</h4>
+                  <p>Carefully peel off any protective plastic films covering the screen, keyboard, or other surfaces.</p>
+                </div>
+              </div>
+            </div>
+
+            <h3>First-Time Setup</h3>
+            <div class="step-by-step">
+              <div class="step">
+                <div class="step-number">1</div>
+                <div class="step-content">
+                  <h4>Connect the power adapter</h4>
+                  <p>Plug the power adapter into a wall outlet, then connect it to your laptop's charging port.</p>
+                </div>
+              </div>
+              <div class="step">
+                <div class="step-number">2</div>
+                <div class="step-content">
+                  <h4>Power on your laptop</h4>
+                  <p>Press the power button, typically located above the keyboard or on the side of the device.</p>
+                </div>
+              </div>
+              <div class="step">
+                <div class="step-number">3</div>
+                <div class="step-content">
+                  <h4>Follow on-screen instructions</h4>
+                  <p>The operating system will guide you through initial setup, including language selection, user account creation, and network connection.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="note-box">
+              <h4>Important Note</h4>
+              <p>Charge your laptop fully before first use. This helps condition the battery and ensures you won't lose power during the initial setup process.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="basic-operations" class="page">
+          <h2>Basic Operations</h2>
+          <div class="section-content">
+            <h3>Powering Your Laptop</h3>
+            <div class="info-grid">
+              <div class="info-item">
+                <h4>Power On</h4>
+                <p>Press the power button once and release. The button usually has this symbol: <span class="symbol">⏻</span></p>
+              </div>
+              <div class="info-item">
+                <h4>Sleep Mode</h4>
+                <p>Press the power button briefly or close the lid (on most laptops). The computer enters a low-power state.</p>
+              </div>
+              <div class="info-item">
+                <h4>Restart</h4>
+                <p>Use the operating system's restart option from the power menu.</p>
+              </div>
+              <div class="info-item">
+                <h4>Shut Down</h4>
+                <p>Use the operating system's shut down option from the power menu. Always shut down properly before storing your laptop for extended periods.</p>
+              </div>
+            </div>
+
+            <div class="warning-box">
+              <h4>Warning</h4>
+              <p>Avoid forcing your laptop to power off by holding down the power button unless it's completely unresponsive. This can lead to data loss or corruption.</p>
+            </div>
+
+            <h3>Understanding the Desktop</h3>
+            <div class="desktop-illustration">
+              <div class="desktop-component taskbar" data-label="Taskbar/Dock"></div>
+              <div class="desktop-component desktop-area" data-label="Desktop"></div>
+              <div class="desktop-component start-menu" data-label="Start Menu"></div>
+              <div class="desktop-component system-tray" data-label="System Tray"></div>
+            </div>
+            <p>The desktop is your main workspace. It includes icons for accessing files, applications, and system functions.</p>
+          </div>
+        </section>
+
+        <section id="keyboard-trackpad" class="page">
+          <h2>Keyboard & Trackpad</h2>
+          <div class="section-content">
+            <h3>Keyboard Basics</h3>
+            <div class="keyboard-illustration"></div>
+            <div class="key-explanations">
+              <div class="key-group">
+                <h4>Function Keys (F1-F12)</h4>
+                <p>Perform special actions like adjusting volume, brightness, or accessing help.</p>
+              </div>
+              <div class="key-group">
+                <h4>Modifier Keys</h4>
+                <p>Ctrl, Alt, Shift, and Command (Mac) or Windows (PC) keys are used in combinations for shortcuts.</p>
+              </div>
+              <div class="key-group">
+                <h4>Navigation Keys</h4>
+                <p>Arrow keys, Home, End, Page Up, and Page Down help you navigate through documents.</p>
+              </div>
+            </div>
+
+            <h3>Essential Keyboard Shortcuts</h3>
+            <div class="shortcut-table">
+              <div class="shortcut-row header">
+                <div class="shortcut-action">Action</div>
+                <div class="shortcut-keys">Windows</div>
+                <div class="shortcut-keys">Mac</div>
+              </div>
+              <div class="shortcut-row">
+                <div class="shortcut-action">Copy</div>
+                <div class="shortcut-keys">Ctrl + C</div>
+                <div class="shortcut-keys">⌘ + C</div>
+              </div>
+              <div class="shortcut-row">
+                <div class="shortcut-action">Paste</div>
+                <div class="shortcut-keys">Ctrl + V</div>
+                <div class="shortcut-keys">⌘ + V</div>
+              </div>
+              <div class="shortcut-row">
+                <div class="shortcut-action">Cut</div>
+                <div class="shortcut-keys">Ctrl + X</div>
+                <div class="shortcut-keys">⌘ + X</div>
+              </div>
+              <div class="shortcut-row">
+                <div class="shortcut-action">Undo</div>
+                <div class="shortcut-keys">Ctrl + Z</div>
+                <div class="shortcut-keys">⌘ + Z</div>
+              </div>
+              <div class="shortcut-row">
+                <div class="shortcut-action">Save</div>
+                <div class="shortcut-keys">Ctrl + S</div>
+                <div class="shortcut-keys">⌘ + S</div>
+              </div>
+              <div class="shortcut-row">
+                <div class="shortcut-action">Print</div>
+                <div class="shortcut-keys">Ctrl + P</div>
+                <div class="shortcut-keys">⌘ + P</div>
+              </div>
+              <div class="shortcut-row">
+                <div class="shortcut-action">Find</div>
+                <div class="shortcut-keys">Ctrl + F</div>
+                <div class="shortcut-keys">⌘ + F</div>
+              </div>
+            </div>
+
+            <h3>Using the Trackpad</h3>
+            <div class="trackpad-section">
+              <div class="trackpad-illustration"></div>
+              <div class="trackpad-gestures">
+                <div class="gesture">
+                  <h4>Point & Click</h4>
+                  <p>Move your finger on the trackpad to control the cursor, tap to click.</p>
+                </div>
+                <div class="gesture">
+                  <h4>Right-Click</h4>
+                  <p>Tap with two fingers or click in the bottom-right corner of the trackpad.</p>
+                </div>
+                <div class="gesture">
+                  <h4>Scroll</h4>
+                  <p>Slide two fingers up or down to scroll through pages.</p>
+                </div>
+                <div class="gesture">
+                  <h4>Zoom</h4>
+                  <p>Pinch two fingers together or spread them apart to zoom out or in.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="wifi-connectivity" class="page">
+          <h2>Wi-Fi & Connectivity</h2>
+          <div class="section-content">
+            <h3>Connecting to Wi-Fi</h3>
+            <div class="step-by-step">
+              <div class="step">
+                <div class="step-number">1</div>
+                <div class="step-content">
+                  <h4>Access network settings</h4>
+                  <p>Click on the Wi-Fi icon in your system tray (Windows) or menu bar (Mac).</p>
+                </div>
+              </div>
+              <div class="step">
+                <div class="step-number">2</div>
+                <div class="step-content">
+                  <h4>Select a network</h4>
+                  <p>Choose your Wi-Fi network from the list of available networks.</p>
+                </div>
+              </div>
+              <div class="step">
+                <div class="step-number">3</div>
+                <div class="step-content">
+                  <h4>Enter password</h4>
+                  <p>If the network is secured, enter the password when prompted.</p>
+                </div>
+              </div>
+              <div class="step">
+                <div class="step-number">4</div>
+                <div class="step-content">
+                  <h4>Connect</h4>
+                  <p>Click "Connect" and wait for the connection to be established.</p>
+                </div>
+              </div>
+            </div>
+
+            <h3>Other Connectivity Options</h3>
+            <div class="connectivity-options">
+              <div class="connectivity-option">
+                <div class="icon bluetooth"></div>
+                <h4>Bluetooth</h4>
+                <p>Connect wirelessly to peripherals like mice, keyboards, and headphones.</p>
+              </div>
+              <div class="connectivity-option">
+                <div class="icon usb"></div>
+                <h4>USB Ports</h4>
+                <p>Connect devices like external drives, printers, and more directly to your laptop.</p>
+              </div>
+              <div class="connectivity-option">
+                <div class="icon hdmi"></div>
+                <h4>HDMI/Display Ports</h4>
+                <p>Connect to external monitors, projectors, or TVs for expanded display options.</p>
+              </div>
+              <div class="connectivity-option">
+                <div class="icon audio"></div>
+                <h4>Audio Jack</h4>
+                <p>Connect headphones, speakers, or microphones for audio input/output.</p>
+              </div>
+            </div>
+
+            <div class="tip-box">
+              <h4>Pro Tip</h4>
+              <p>Set your frequently used networks to connect automatically. This way, your laptop will join them whenever they're in range without requiring manual connection.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="software" class="page">
+          <h2>Software & Applications</h2>
+          <div class="section-content">
+            <h3>Installing Software</h3>
+            <div class="os-tabs">
+              <div class="tab-headers">
+                <div class="tab-header active" data-tab="windows">Windows</div>
+                <div class="tab-header" data-tab="mac">macOS</div>
+              </div>
+              <div class="tab-content">
+                <div class="tab-pane active" id="windows-tab">
+                  <div class="step-by-step">
+                    <div class="step">
+                      <div class="step-number">1</div>
+                      <div class="step-content">
+                        <h4>Use Microsoft Store</h4>
+                        <p>Open the Microsoft Store app and search for your desired application.</p>
+                      </div>
+                    </div>
+                    <div class="step">
+                      <div class="step-number">2</div>
+                      <div class="step-content">
+                        <h4>Download installer</h4>
+                        <p>Alternatively, download installation files (.exe or .msi) from trusted websites.</p>
+                      </div>
+                    </div>
+                    <div class="step">
+                      <div class="step-number">3</div>
+                      <div class="step-content">
+                        <h4>Run installer</h4>
+                        <p>Double-click the downloaded file and follow the installation wizard.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane" id="mac-tab">
+                  <div class="step-by-step">
+                    <div class="step">
+                      <div class="step-number">1</div>
+                      <div class="step-content">
+                        <h4>Use App Store</h4>
+                        <p>Open the App Store and search for your desired application.</p>
+                      </div>
+                    </div>
+                    <div class="step">
+                      <div class="step-number">2</div>
+                      <div class="step-content">
+                        <h4>Download disk image</h4>
+                        <p>Alternatively, download .dmg files from trusted websites.</p>
+                      </div>
+                    </div>
+                    <div class="step">
+                      <div class="step-number">3</div>
+                      <div class="step-content">
+                        <h4>Install application</h4>
+                        <p>Open the disk image and drag the application to your Applications folder.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <h3>Essential Software Categories</h3>
+            <div class="software-categories">
+              <div class="software-category">
+                <h4>Productivity</h4>
+                <p>Word processors, spreadsheets, presentation software (Microsoft Office, Google Workspace, LibreOffice)</p>
+              </div>
+              <div class="software-category">
+                <h4>Web Browsers</h4>
+                <p>For accessing the internet (Chrome, Firefox, Safari, Edge)</p>
+              </div>
+              <div class="software-category">
+                <h4>Security</h4>
+                <p>Antivirus, firewall, and password managers to keep your data safe</p>
+              </div>
+              <div class="software-category">
+                <h4>Media</h4>
+                <p>Photo editors, video players, music apps</p>
+              </div>
+            </div>
+
+            <div class="warning-box">
+              <h4>Warning</h4>
+              <p>Only download software from trusted sources to avoid malware. Be cautious of free software that seems too good to be true—it often contains unwanted programs or malicious code.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="file-management" class="page">
+          <h2>File Management</h2>
+          <div class="section-content">
+            <h3>Understanding File Systems</h3>
+            <p>Your laptop organizes data in a hierarchical structure of files and folders.</p>
+            <div class="file-system-illustration"></div>
+
+            <h3>File Operations</h3>
+            <div class="file-operations">
+              <div class="operation">
+                <h4>Creating Files & Folders</h4>
+                <p><strong>Windows:</strong> Right-click > New > Folder or File type<br>
+                <strong>Mac:</strong> Right-click > New Folder or use an app to create files</p>
+              </div>
+              <div class="operation">
+                <h4>Copying & Moving</h4>
+                <p>Select files, then:<br>
+                <strong>Copy:</strong> Ctrl+C (Win) or ⌘+C (Mac)<br>
+                <strong>Cut:</strong> Ctrl+X (Win) or ⌘+X (Mac)<br>
+                <strong>Paste:</strong> Ctrl+V (Win) or ⌘+V (Mac)</p>
+              </div>
+              <div class="operation">
+                <h4>Renaming</h4>
+                <p>Select file > Press F2 (Win) or Return (Mac) > Type new name</p>
+              </div>
+              <div class="operation">
+                <h4>Deleting</h4>
+                <p>Select files > Press Delete (moves to Recycle Bin/Trash)<br>
+                Permanent delete: Shift+Delete (Win) or ⌘+Option+Delete (Mac)</p>
+              </div>
+            </div>
+
+            <h3>Backup Strategies</h3>
+            <div class="backup-methods">
+              <div class="backup-method">
+                <h4>External Hard Drives</h4>
+                <p>Connect an external drive and copy important files regularly.</p>
+              </div>
+              <div class="backup-method">
+                <h4>Cloud Storage</h4>
+                <p>Services like Google Drive, Dropbox, or OneDrive automatically sync your files.</p>
+              </div>
+              <div class="backup-method">
+                <h4>Backup Software</h4>
+                <p>Use built-in tools like Windows Backup or Time Machine (Mac) for automatic backups.</p>
+              </div>
+            </div>
+
+            <div class="tip-box">
+              <h4>Pro Tip</h4>
+              <p>Follow the 3-2-1 backup rule: Keep 3 copies of important data, on 2 different types of media, with 1 copy stored off-site or in the cloud.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="security" class="page">
+          <h2>Security & Maintenance</h2>
+          <div class="section-content">
+            <h3>Essential Security Practices</h3>
+            <div class="security-practices">
+              <div class="security-practice">
+                <div class="icon password"></div>
+                <h4>Strong Passwords</h4>
+                <p>Use unique, complex passwords for all accounts. Consider using a password manager.</p>
+              </div>
+              <div class="security-practice">
+                <div class="icon updates"></div>
+                <h4>Keep Software Updated</h4>
+                <p>Regularly update your operating system and applications to patch security vulnerabilities.</p>
+              </div>
+              <div class="security-practice">
+                <div class="icon antivirus"></div>
+                <h4>Use Antivirus Software</h4>
+                <p>Install reputable security software to protect against malware and viruses.</p>
+              </div>
+              <div class="security-practice">
+                <div class="icon firewall"></div>
+                <h4>Enable Firewall</h4>
+                <p>Keep your firewall active to prevent unauthorized network access.</p>
+              </div>
+            </div>
+
+            <h3>Regular Maintenance Tasks</h3>
+            <div class="maintenance-tasks">
+              <div class="task">
+                <h4>Cleaning Up Disk Space</h4>
+                <p>Regularly remove unnecessary files and uninstall unused applications.</p>
+                <div class="task-frequency">Monthly</div>
+              </div>
+              <div class="task">
+                <h4>Updating Software</h4>
+                <p>Keep your operating system and applications up to date.</p>
+                <div class="task-frequency">Weekly</div>
+              </div>
+              <div class="task">
+                <h4>Backing Up Data</h4>
+                <p>Regularly back up important files to an external drive or cloud storage.</p>
+                <div class="task-frequency">Weekly/Monthly</div>
+              </div>
+              <div class="task">
+                <h4>Physical Cleaning</h4>
+                <p>Keep your laptop clean by dusting vents and wiping surfaces with appropriate cleaners.</p>
+                <div class="task-frequency">Monthly</div>
+              </div>
+            </div>
+
+            <div class="warning-box">
+              <h4>Warning</h4>
+              <p>Never share your laptop password with others, and be cautious about what websites you visit and what files you download. Always log out of sensitive accounts when using public Wi-Fi.</p>
+            </div>
+          </div>
+        </section>
+
+        <section id="troubleshooting" class="page">
+          <h2>Troubleshooting</h2>
+          <div class="section-content">
+            <h3>Common Issues & Solutions</h3>
+            
+            <div class="accordion">
+              <div class="accordion-item">
+                <div class="accordion-header">
+                  <h4>Laptop Won't Turn On</h4>
+                  <span class="accordion-icon">+</span>
+                </div>
+                <div class="accordion-content">
+                  <ol>
+                    <li>Check if the power adapter is properly connected</li>
+                    <li>Ensure the outlet is working by testing with another device</li>
+                    <li>Remove the battery (if possible) and reconnect it</li>
+                    <li>Try pressing and holding the power button for 15-30 seconds</li>
+                    <li>If nothing works, contact technical support</li>
+                  </ol>
+                </div>
+              </div>
+              
+              <div class="accordion-item">
+                <div class="accordion-header">
+                  <h4>Slow Performance</h4>
+                  <span class="accordion-icon">+</span>
+                </div>
+                <div class="accordion-content">
+                  <ol>
+                    <li>Close unnecessary applications running in the background</li>
+                    <li>Check for and remove malware</li>
+                    <li>Clear temporary files and browser cache</li>
+                    <li>Consider adding more RAM if your laptop supports upgrades</li>
+                    <li>Restart your laptop regularly</li>
+                  </ol>
+                </div>
+              </div>
+              
+              <div class="accordion-item">
+                <div class="accordion-header">
+                  <h4>Wi-Fi Connection Issues</h4>
+                  <span class="accordion-icon">+</span>
+                </div>
+                <div class="accordion-content">
+                  <ol>
+                    <li>Turn Wi-Fi off and on again</li>
+                    <li>Restart your router</li>
+                    <li>Move closer to the router</li>
+                    <li>Forget the network and reconnect</li>
+                    <li>Update your network adapter drivers</li>
+                  </ol>
+                </div>
+              </div>
+              
+              <div class="accordion-item">
+                <div class="accordion-header">
+                  <h4>Battery Draining Too Quickly</h4>
+                  <span class="accordion-icon">+</span>
+                </div>
+                <div class="accordion-content">
+                  <ol>
+                    <li>Reduce screen brightness</li>
+                    <li>Close unused applications</li>
+                    <li>Disable background apps and notifications</li>
+                    <li>Use battery saver mode</li>
+                    <li>Check for battery-intensive applications</li>
+                    <li>Consider replacing the battery if it's old</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+
+            <h3>When to Seek Professional Help</h3>
+            <div class="professional-help-cases">
+              <div class="help-case">
+                <h4>Hardware Failures</h4>
+                <p>If you hear unusual noises, see error screens, or experience component failures.</p>
+              </div>
+              <div class="help-case">
+                <h4>Liquid Damage</h4>
+                <p>If any liquid has spilled on your laptop, turn it off immediately and seek professional assistance.</p>
+              </div>
+              <div class="help-case">
+                <h4>Persistent Software Issues</h4>
+                <p>If your laptop frequently crashes or displays error messages that basic troubleshooting doesn't resolve.</p>
+              </div>
+              <div class="help-case">
+                <h4>Data Recovery</h4>
+                <p>If you need to recover important lost files, professional services have specialized tools.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="glossary" class="page">
+          <h2>Glossary</h2>
+          <div class="section-content">
+            <div class="glossary-container">
+              <div class="glossary-item">
+                <h3>BIOS/UEFI</h3>
+                <p>Basic Input/Output System or Unified Extensible Firmware Interface; software that initializes hardware during startup.</p>
+              </div>
+              <div class="glossary-item">
+                <h3>CPU</h3>
+                <p>Central Processing Unit; the "brain" of your computer that executes instructions.</p>
+              </div>
+              <div class="glossary-item">
+                <h3>GPU</h3>
+                <p>Graphics Processing Unit; handles visual rendering for display output.</p>
+              </div>
+              <div class="glossary-item">
+                <h3>RAM</h3>
+                <p>Random Access Memory; temporary storage that allows for quick access to data your computer is actively using.</p>
+              </div>
+              <div class="glossary-item">
+                <h3>SSD/HDD</h3>
+                <p>Solid State Drive/Hard Disk Drive; storage devices for your files and programs.</p>
+              </div>
+              <div class="glossary-item">
+                <h3>OS</h3>
+                <p>Operating System; software that manages hardware resources and provides services for computer programs.</p>
+              </div>
+              <div class="glossary-item">
+                <h3>Wi-Fi</h3>
+                <p>Wireless networking technology that allows devices to communicate without physical connections.</p>
+              </div>
+              <div class="glossary-item">
+                <h3>Bluetooth</h3>
+                <p>Wireless technology for exchanging data over short distances.</p>
+              </div>
+              <div class="glossary-item">
+                <h3>USB</h3>
+                <p>Universal Serial Bus; a standard for connecting devices to a computer.</p>
+              </div>
+              <div class="glossary-item">
+                <h3>HDMI</h3>
+                <p>High-Definition Multimedia Interface; a standard for transmitting video and audio data.</p>
+              </div>
+              <div class="glossary-item">
+                <h3>Touchpad/Trackpad</h3>
+                <p>A touch-sensitive surface for controlling the cursor on a laptop.</p>
+              </div>
+              <div class="glossary-item">
+                <h3>Browser</h3>
+                <p>Software application for accessing the World Wide Web.</p>
+              </div>
+              <div class="glossary-item">
+                <h3>Malware</h3>
+                <p>Malicious software designed to damage or gain unauthorized access to a computer system.</p>
+              </div>
+              <div class="glossary-item">
+                <h3>Cloud Storage</h3>
+                <p>Remote storage that allows you to save files to a remote database rather than your computer's hard drive.</p>
+              </div>
+              <div class="glossary-item">
+                <h3>Driver</h3>
+                <p>Software that allows your operating system to communicate with hardware devices.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <footer class="main-footer">
+      <div class="progress-indicator">
+        <div class="progress-bar"></div>
+      </div>
+      <div class="footer-content">
+        <div class="copyright">© 2025 Harrison - Laptop Guide</div>
+        <div class="page-number">Page <span id="current-page">1</span> of <span id="total-pages">11</span></div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
